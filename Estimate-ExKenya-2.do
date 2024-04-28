@@ -6,7 +6,6 @@ set maxiter 100
 
 *load data file
 local sf = "data/KEN-Example.dta"
-if ("${gsdOutput}"!="") local sf = "${gsdOutput}/`sf'"
 
 ************************************************************
 *find best model in log space of all collected consumption *
