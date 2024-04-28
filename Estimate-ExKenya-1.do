@@ -9,7 +9,6 @@ local nmi = 20
 
 *load data file
 local sf = "data/KEN-Example.dta"
-if ("${gsdOutput}"!="") local sf = "${gsdOutput}/`sf'"
 use "`sf'", clear
 
 *run rapid consumption and then (as we have full consumption) test it
