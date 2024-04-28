@@ -10,8 +10,7 @@ local nmi = 20
 *load dataset and prepare per-capita variables, quartiles and transform to logs *
 *********************************************************************************
 *load data file
-local sf = "KEN-Example.dta"
-if ("${gsdOutput}"!="") local sf = "${gsdOutput}/`sf'"
+local sf = "data/KEN-Example.dta"
 use "`sf'", clear
 *create quartiles for consumption
 foreach v of var xfcons0 xnfcons0 {
