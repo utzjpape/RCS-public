@@ -5,7 +5,7 @@ set more off
 set maxiter 100
 
 *load data file
-local sf = "KEN-Example.dta"
+local sf = "data/KEN-Example.dta"
 if ("${gsdOutput}"!="") local sf = "${gsdOutput}/`sf'"
 
 ************************************************************
