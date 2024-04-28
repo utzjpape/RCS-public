@@ -8,8 +8,7 @@ set maxiter 100
 local nmi = 20
 
 *load data file
-local sf = "KEN-Example.dta"
-local sf = "KIHBS2005P-Example_c10-m5-r0_vsmall.dta"
+local sf = "data/KEN-Example.dta"
 if ("${gsdOutput}"!="") local sf = "${gsdOutput}/`sf'"
 use "`sf'", clear
 
